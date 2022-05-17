@@ -1,0 +1,51 @@
+*{
+	border-radius: 4%;
+	text-align: center;
+	background-color: #7fd4;
+
+}
+#DP{
+	background-color: #98ab;
+	width: 13em;
+	height: 2em;
+	font-size: 1em;
+	border:solid #68b;
+}
+#tabla{
+	background-color: #24bc;
+	border:solid;
+    border-style: all;
+	font-size: 1em ;
+
+
+}
+td{
+	background-color: #1bd;
+	height: 1em;
+	font-size: 1em;
+	width: 25%;
+}
+tr{
+	background-color: #7bc3;
+	height: 3em;
+	font-size: 1em;
+
+}
+
+#eliminar{
+	background-color: #b45;
+}
+#num1,#num2,#num3,#num4,#num5,#num6,#num7,#num8,#num9,#num0{
+	background-color: #045b;
+}
+
+#suma,#Punto,#Resta,#Multi,#Dividir,#Porcentaje,#Raiz,#potencia,#Igual{
+	background-color: #046ab4;
+}
+#Boton>input{
+border-radius: 20%
+}
+#Boton{
+	border:solid;
+	border-radius: 35%;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="ec.css"> 
+	<meta charset="utf-8">
+	<title>Calculadora</title>
+</head>
+<body>
+	<header id="Encabezado"><h1>Calculadora</h1></header>
+<table width="10em" border="2" align="center" id="tabla">
+	<tr>
+		<td colspan="4" align="center">
+		<input type="text" name="display" id="DP"></td>
+	</tr>
+	<tr>
+		<td id="Boton"><input type="button" id="suma" value="+" onclick="suma()"></td>
+		<td id="Boton"><input type="button" id="Resta" value="-" onclick="resta()"></td>
+		<td id="Boton"><input type="button" id="Multi" value="*" onclick="multiplica()"></td>
+		<td id="Boton"><input type="button" id="Dividir" value="/" onclick="divida()"></td>
+	</tr>
+	<tr>
+		<td id="Boton"><input type="button" id="num7" value="7" onclick="mostrar(7)"></td>
+		<td id="Boton"><input type="button" id="num8" value="8" onclick="mostrar(8)"></td>
+		<td id="Boton"><input type="button" id="num9" value="9" onclick="mostrar(9)"></td>
+		<td id="Boton"><input type="button" id="Porcentaje" value="%" onclick="porcent()"></td>
+	<tr>
+		<td id="Boton"><input type="button" id="num4" value="4" onclick="mostrar(4)"></td>
+		<td id="Boton"><input type="button" id="num5" value="5" onclick="mostrar(5)"></td>
+		<td id="Boton"><input type="button" id="num6" value="6" onclick="mostrar(6)"></td>
+		<td id="Boton"><input type="button" id="Raiz" value="√" onclick="RZ()"></td>
+	</tr>
+	<tr>
+		<td id="Boton"><input type="button" id="num1" value="1" onclick="mostrar(1)"></td>
+		<td id="Boton"><input type="button" id="num2" value="2" onclick="mostrar(2)"></td>
+		<td id="Boton"><input type="button" id="num3" value="3" onclick="mostrar(3)"></td>
+		<td id="Boton"><input type="button" id="potencia" value="x²" onclick="mostrar(value)"></td>
+	</tr>
+	<tr>
+		<td id="Boton"><input type="button" id="num0" value="0" onclick="mostrar(0)"></td>
+		<td id="Boton"><input type="button" id="Punto" value="." onclick="mostrar(value)"></td>
+		<td id="Boton"><input type="button" id="Igual" value="=" onclick="igual()"></td>
+		<td id="Boton"><input type="button" id="eliminar" value="C" onclick="borrar()"></td>
+	</tr>
+	</table>
+	<script src="ejercicio.js"></script>
+	<footer><h5>Aprendiz: Miguel Angel Martinez</h5>
+	<h5>Instructor: Oscar Julian Ramirez</h5>
+    </footer>
+</body>
+</html>
